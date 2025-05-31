@@ -3,6 +3,12 @@
 /node_modules
 /build
 
+pgdata
+docker-compose copy.yml
+docker-compose.yml
+dockerignore
+Dockerfile
+
 # Logs
 logs
 *.log
@@ -41,10 +47,7 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
-.docker-compose copy.yml
-.docker-compose.yml
-.dockerignore
-.Dockerfile
+
 
 # temp directory
 .temp
